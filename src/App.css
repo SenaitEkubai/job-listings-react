@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: rgb(218, 252, 252);
 }
 
 .App-logo {
@@ -35,4 +36,7 @@
   to {
     transform: rotate(360deg);
   }
+}
+.job-container {
+  background-color: rgb(253, 252, 252);
 }
