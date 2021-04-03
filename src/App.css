@@ -38,11 +38,22 @@
 }
 .job-container {
   background-color: rgb(253, 252, 252);
+  width: 90%;
 }
+
 header {
-  background-color: rgb(6, 153, 153);
+  background-color: rgb(67, 170, 170);
+  overflow: hidden;
+  width: 100%;
+  height: 80px;
 }
 span {
   width: 100%;
   font-size: larger;
+}
+.new-featured {
+  background-color: rgb(6, 78, 78);
+  color: white;
+  border-radius: 30px;
+  font-size: large;
 }
