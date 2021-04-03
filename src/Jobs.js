@@ -11,7 +11,7 @@ const Jobs = () => {
 
   if (Data.length !== 0) {
     return (
-      <div>
+      <div className="mt-3">
         {allJobs.map((job, index) => (
           <OneJob job={job} key={index} />
         ))}
