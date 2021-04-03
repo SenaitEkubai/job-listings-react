@@ -1,6 +1,5 @@
 .App {
   text-align: center;
-  background-color: rgb(218, 252, 252);
 }
 
 .App-logo {
@@ -39,4 +38,11 @@
 }
 .job-container {
   background-color: rgb(253, 252, 252);
+}
+header {
+  background-color: rgb(6, 153, 153);
+}
+span {
+  width: 100%;
+  font-size: larger;
 }
