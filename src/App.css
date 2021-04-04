@@ -42,10 +42,10 @@
 }
 
 header {
-  background-color: rgb(67, 170, 170);
+  background-color: rgb(82, 150, 150);
   overflow: hidden;
   width: 100%;
-  height: 80px;
+  height: 100px;
 }
 span {
   width: 100%;
@@ -56,4 +56,18 @@ span {
   color: white;
   border-radius: 30px;
   font-size: large;
+}
+#myBorder {
+  border-left: 7px solid rgb(6, 122, 122);
+  border-radius: 2px;
+}
+@media only screen and (max-width: 600px) {
+  .job-container {
+    flex-direction: column;
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  .job-container {
+    flex-direction: column;
+  }
 }
