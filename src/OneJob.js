@@ -2,9 +2,8 @@ import React from "react";
 const OneJob = (props) => {
   return (
     <div
-      className={`job-container shadow-lg  d-flex  mt-3 ml-auto mr-auto ${
-        props.job.featured && "border-left border border-primary"
-      } `}
+      className={`job-container shadow-lg  d-flex  mt-3 ml-auto mr-auto `}
+      id={`${props.job.featured && "myBorder"}`}
     >
       <div>
         <img src={props.job.logo} alt={props.job.id}></img>
